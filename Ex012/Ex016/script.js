@@ -27,13 +27,13 @@ function verificar(){
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >= 0 && idade < 10) {
-
+                img.setAttribute('src', 'imagens/bebefem.png')
             } else if (idade < 21) {
-
+                img.setAttribute('src', 'imagens/jovemfem.png')
             } else if (idade < 50) {
-                
+                img.setAttribute('src', 'imagens/adultofem.png')
             } else {
-                
+                img.setAttribute('src', 'imagens/idosofem.png')
             }
         }
         res.style.textAlign = 'center' //centralizar no HTML pelo JS
