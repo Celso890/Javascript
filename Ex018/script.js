@@ -1,13 +1,13 @@
 function contar() {
-    let inicial = document.getElementById('txti')
-    let final = document.getElementById('txtf')
-    let cont = document.getElementById('txtp')
-    var res = document.getElementById('res')
-    
-    /**/
-    if (inicial.value.lenght == 0 || final.value.lenght == 0 || cont.value.lenght == 0){
-        window.alert('Impossível contar!')
-    } else {
-       
-    }
+  let ini = document.getElementById("txti");
+  let fim = document.getElementById("txtf");
+  let passo = document.getElementById("txtp");
+  var res = document.getElementById("res");
+
+  /**/
+  if (
+    ini.value.lenght == 0 || fim.value.lenght == 0 ||passo.value.lenght == 0) {
+    window.alert("Impossível contar!");
+  } else {
+  }
 }
