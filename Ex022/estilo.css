@@ -19,8 +19,9 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-div > select {
+select {
     width: 250px;
+    font: normal 12pt Arial ;
 }
 
 footer {
